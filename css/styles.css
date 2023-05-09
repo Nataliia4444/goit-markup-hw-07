@@ -1101,7 +1101,6 @@ padding-bottom: 48px;
 
 .body-items{
 --items: 1;
-/* width: 396px; */
 }
 
 .main-link{
@@ -1515,6 +1514,7 @@ gap: 8px;
 align-items: center;
 justify-content: center;
 margin-bottom: 24px;
+margin-right: auto;
 }
 
 .modal-form-agreement-text{
@@ -1549,6 +1549,10 @@ opacity: 1;
 opacity: 1;
 transition: opacity 250ms var(--timing-function);
 } 
+
+.modal-form-agreement-link{
+  color: var(--iris);
+}
 
 
 /* TABLET STYLES & DESKTOP STYLES */
